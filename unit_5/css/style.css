@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+
+html { 
+  background: url(../images/cover_image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.wrapper{
+	background-color: #FFC675;
+}
+
+.hero_image{
+	background-color: #FFC675;
+}
+
+body:after{
+    position:fixed;
+    content:"";
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,0.5);
+    z-index:-1;
+}
+
+  body{
+	font-family: 'Open Sans';
+	font-weight: 400;
+ 	 vertical-align: middle;
+  	color: #fff;
+}
+
+
+h1  {
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.25em;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+}
+
+#slogan {
+	text-align: center;
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+p {
+	text-align: center;
+	font-size: 1em;
+}
+
+ul {
+	font-size: 1em;
+	text-align: center;
+	list-style-type: none;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.boxed {
+	border: solid 1px #fff;
+	display: table;
+	padding: 10px;
+	margin: auto;
+}
+
+#description {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+hr {
+	width: 300px;}
+
+a {
+	color: #ffd9f1;
+}
