@@ -2,18 +2,14 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
 
-html { 
+
+header {
   background: url(../images/cover_image.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
+  padding: 20px;
 }
 
 nav {
@@ -34,12 +30,28 @@ footer {
     padding: 20px;
 }
 
-.wrapper{
+#wrapper{
 	background-color: #FFC675;
 }
 
-.hero_image{
-	background-color: #FFC675;
+#hero_image{
+	background-color: #FFCCCC;
+	padding: 20px;
+	border: 1px black solid;
+}
+
+#work{
+	background-color: #CC6600;
+}
+
+#services{
+	background-color: #FF00CC;
+}
+#about{
+	background-color: #0099CC;
+}
+#contact{
+	background-color: #390099;
 }
 
 body:after{
@@ -75,6 +87,13 @@ h2 {
 	font-weight: 400;
 }
 
+h3 {
+	text-align: center;
+	font-size: 1.1em;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+}
+
 #slogan {
 	text-align: center;
 	font-family: 'Roboto Slab';
@@ -96,6 +115,7 @@ ul {
 	padding: 0px;
 }
 
+
 div.boxed {
 	border: solid 1px #fff;
 	display: table;
@@ -113,4 +133,25 @@ hr {
 
 a {
 	color: #ffd9f1;
+}
+
+.icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0px 0px 0px;
+	height: 75px
+}
+
+.images {
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.portfolio_image {
+	display: inline;
+	margin: 10px;
+	border: 1px black solid;
 }
