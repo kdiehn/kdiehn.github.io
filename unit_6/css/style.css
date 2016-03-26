@@ -37,7 +37,6 @@ footer {
 
 #hero_image{
 	padding: 40px;
-	margin: 40px;
 }
 
 #work{
@@ -48,10 +47,6 @@ footer {
 	background-color: #FF00CC;
 	border: 1px black solid;
 	padding: 20px;
-}
-
-#column{
-	clear: both;
 }
 
 #print {
@@ -202,4 +197,22 @@ a {
     content: " ";
     clear: both;
     height: 0;
+}
+
+#get_in_touch {
+	float: left;
+	padding: 20px;
+	width: 30%;
+}
+
+#social {
+	float: left;
+	padding: 20px;
+	width: 30%;
+}
+
+#quick_contact {
+	float: left;
+	padding: 20px;
+	width: 30%;
 }
