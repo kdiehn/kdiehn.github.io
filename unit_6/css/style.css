@@ -14,8 +14,6 @@ header {
 }
 
 nav {
-    background-color: #E8C66A;
-    border: 1px black solid;
     padding: 20px;
 }
 
@@ -48,21 +46,28 @@ footer {
 	border: 1px black solid;
 	padding: 20px;
 }
+.column{
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+}
 
 #print {
 	background-color: violet;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
 	float: left;
-	width: 46%;
+	width: 47%;
+	margin: 5px;
 }	
 
 #online {
 	background-color: #EffB88;
 	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 46%;
+	padding: 10px;
+	float: left;
+	width: 47%;
+	margin: 5px;
 }
 
 #about{
@@ -118,6 +123,7 @@ h3 {
 	font-family: 'Roboto Slab';
 	font-weight: 700;
 	font-size: 4em;
+	margin-top: 150px;
 }
 
 #navstyle {
@@ -125,7 +131,53 @@ h3 {
 	font-family: 'Open Sans';
 	font-weight: 300;
 	font-size: 1em;
+	padding: 10px;
 }
+
+#logo {
+	float: left;
+}
+
+#workbutton {
+	float: right;
+	padding: 20px;
+	background-color: rgba(255,255,255,.7); 
+}
+#workbutton:hover {
+	background-color: rgba(255,255,255,.4); 
+}
+
+#servicesbutton {
+	float: right;
+	padding: 20px;
+	background-color: rgba(255,255,255,.7);
+}
+
+#servicesbutton:hover {
+	background-color: rgba(255,255,255,.4); 
+}
+
+
+#aboutbutton {
+	float: right;
+	padding:  20px;
+	background-color: rgba(255,255,255,.7);
+}
+
+#aboutbutton:hover {
+	background-color: rgba(255,255,255,.4); 
+}
+
+#contactbutton {
+	float: right;
+	padding: 20px;
+	background-color: rgba(255,255,255,.7);
+}
+
+#contactbutton:hover {
+	background-color: rgba(255,255,255,.4); 
+}
+
 
 #button {
 	text-align: center;
@@ -156,6 +208,11 @@ div.boxed {
 	margin: 50px auto 50px auto;
 }
 
+.boxed:hover{
+	border: solid 1px black;
+	background-color: rgba(0,0,0,.5);
+}
+
 #headline {
 	padding: 300px;
 }
@@ -171,10 +228,13 @@ a {
 }
 
 #buttonlink {
-	color: #FFFFFF;
+	color: black;
     text-decoration: none;
 }
-
+#workbuttonlink {
+	color: white;
+    text-decoration: none;
+}
 .icon {
 	display: block;
 	margin-left: auto;
@@ -206,18 +266,18 @@ a {
 
 #get_in_touch {
 	float: left;
-	padding: 20px;
+	padding: 10px;
 	width: 30%;
 }
 
 #social {
 	float: left;
-	padding: 20px;
+	padding: 10px;
 	width: 30%;
 }
 
 #quick_contact {
 	float: left;
-	padding: 20px;
+	padding: 10px;
 	width: 30%;
 }
