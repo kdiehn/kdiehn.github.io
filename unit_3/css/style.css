@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+
 html { 
   background: url(../images/cover_image.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -17,37 +21,46 @@ body:after{
 }
 
   body{
-	font-family: Helvetica;
+	font-family: 'Open Sans';
+	font-weight: 400;
  	 vertical-align: middle;
   	color: #fff;
 }
 
 
 h1  {
-	font-size: 40px;
+	font-size: 2em;
 	text-align: center;
+	font-family: 'Roboto Slab';
+	font-weight: 700;
 }
 
 h2 {
 	text-align: center;
-	font-size: 24px;
+	font-size: 1.25em;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
 }
 
 #slogan {
 	text-align: center;
-	font-size: 20px;
-	font-style: italic;
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 1.5em;
 }
 
 p {
 	text-align: center;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 ul {
-	font-size: 16px;
+	font-size: 1em;
 	text-align: center;
 	list-style-type: none;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
 }
 
 div.boxed {
@@ -63,7 +76,7 @@ div.boxed {
 }
 
 #contact {
-	font-size: 14px;
+	font-size: .8em;
 	text-align: center;
 }
 

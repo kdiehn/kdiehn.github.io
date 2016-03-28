@@ -46,7 +46,22 @@ footer {
 
 #services{
 	background-color: #FF00CC;
+	border: 1px black solid;
+	padding: 20px;
 }
+
+#print {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#online {
+	background-color: #EffB88;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 #about{
 	background-color: #0099CC;
 }
