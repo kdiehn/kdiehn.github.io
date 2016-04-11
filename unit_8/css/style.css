@@ -28,7 +28,6 @@ nav {
 footer {
     background-color: #FF957E;
     border: 1px black solid;
-    padding: 1em;
     width: 100%;
 }
 
@@ -282,20 +281,20 @@ a {
 
 #get_in_touch {
 	float: left;
-	padding: 1em;
-	width: 30%;
+	padding: 1%;
+	width: 31%;
 }
 
 #social {
 	float: left;
-	padding: 1em;
-	width: 30%;
+	padding: 1%;
+	width: 31%;
 }
 
 #quick_contact {
 	float: left;
-	padding: 1em;
-	width: 30%;
+	padding: 1%;
+	width: 31%;
 }
 
 @media only screen and (max-width: 960px) {
@@ -304,6 +303,8 @@ a {
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0em;
+		width: 100%;
+
 	}
 
 	#get_in_touch {
