@@ -406,14 +406,16 @@ a {
 	float: none;
 	padding: 1em;
 	background-color: rgba(255,255,255,.7);
-	text-align: center 
+	text-align: center;
+	margin: 0 auto; 
 	width: 40%;
 	}
 	#servicesbutton {
 	float: none;
 	padding: 1em;
 	background-color: rgba(255,255,255,.7);
-	text-align: center 
+	text-align: center; 
+	margin: 0 auto; 
 	width: 40%;
 
 	}
@@ -421,7 +423,8 @@ a {
 	float: none;
 	padding:  1em;
 	background-color: rgba(255,255,255,.7);
-	text-align: center
+	text-align: center;
+	margin: 0 auto;
 	width: 40%;
  
 	}
@@ -429,7 +432,8 @@ a {
 	float: none;
 	padding: 1em;
 	background-color: rgba(255,255,255,.7);
-	text-align: center 
+	text-align: center; 
+	margin: 0 auto;
 	width: 40%;
 
 	}
