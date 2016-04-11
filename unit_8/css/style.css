@@ -341,16 +341,22 @@ a {
 	#description {
 	margin-left: 2em;
 	margin-right: 2em;
-}
+	}
+	#hero_image{
+	padding: 1em;
+	width: 100%;
+	}
 
 	}
 
 @media only screen and (max-width: 500px) {
 	body{
 		font-size: 14px;}
+	
 	.portfolio_image {
 		width: 90%;
 	}	
+	
 	#description {
 	margin-left: 1em;
 	margin-right: 1em;
@@ -358,6 +364,13 @@ a {
 
 	header {
  	padding: 1em;
+ 	text-align: center;
+	}
+	
+	#hero_image{
+	padding: .25em;
+	width: 100%;
+	text-align: center;
 	}
 
 	nav {
@@ -365,6 +378,8 @@ a {
     margin-right: auto;
     margin-left: auto;
     width: 40%;
+    text-align: center;
+    display: block;
 	}
 
 	h2 {
