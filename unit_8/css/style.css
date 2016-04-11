@@ -377,7 +377,6 @@ a {
     padding: 0em;
     margin-right: auto;
     margin-left: auto;
-    width: 40%;
     text-align: center;
     display: block;
 	}
@@ -408,24 +407,31 @@ a {
 	padding: 1em;
 	background-color: rgba(255,255,255,.7);
 	text-align: center 
+	width: 40%;
 	}
 	#servicesbutton {
 	float: none;
 	padding: 1em;
 	background-color: rgba(255,255,255,.7);
 	text-align: center 
+	width: 40%;
+
 	}
 	#aboutbutton {
 	float: none;
 	padding:  1em;
 	background-color: rgba(255,255,255,.7);
-	text-align: center 
+	text-align: center
+	width: 40%;
+ 
 	}
 	#contactbutton {
 	float: none;
 	padding: 1em;
 	background-color: rgba(255,255,255,.7);
 	text-align: center 
+	width: 40%;
+
 	}
 	#slogan {
 	text-align: center;
