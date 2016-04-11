@@ -363,7 +363,7 @@ a {
 	}
 
 	header {
- 	padding: 1em;
+ 	padding: 1 0 0 0em;
  	text-align: center;
 	}
 	
@@ -457,20 +457,23 @@ a {
 	.column{
 	width: 100%;
 	text-align: center;
+	padding: 0;
 	}
 
 	#print {
 	float: none;
-	width: 93%;
-	margin: .5em;	
+	width: 96.5%;
+	margin: 0;	
 	display: block;
+	padding: .5em;
 	}	
 
 	#online {
 	float: none;
-	width: 93%;
-	margin: .5em;
+	width: 96.5%;
+	margin: 0;
 	display: block;
+	padding: .5em;
 	}
 	section {
     padding: 0em;
