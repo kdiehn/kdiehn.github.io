@@ -16,18 +16,19 @@ header {
 
 nav {
     padding: 1.5em;
+    margin-right: 1.5em;
 }
 
-section {
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 1.5em;
-}
+	section {
+	    background-color: #FFE2B8;
+	    border: 1px black solid;
+	    padding: 1.5em;
+	}
 
 footer {
     background-color: #FF957E;
     border: 1px black solid;
-    padding: 1.5em;
+    padding: 1em;
     width: 100%;
 }
 
@@ -50,16 +51,14 @@ footer {
 #services{
 	background-color: #FF00CC;
 	border: 1px black solid;
-	padding: 1.5em;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
 .column{
 	margin-left: auto;
 	margin-right: auto;
 	display: inline;
 	width: 100%;
+	text-align: center;
 }
 
 #print {
@@ -67,8 +66,8 @@ footer {
 	border: 1px black solid;
 	padding: .75em;
 	float: left;
-	width: 40%;
-	margin: .5em;	
+	width: 45%;
+	margin: 0em;	
 	display: inline;
 }	
 
@@ -77,8 +76,8 @@ footer {
 	border: 1px black solid;
 	padding: .75em;
 	float: left;
-	width: 40%;
-	margin: .5em;
+	width: 44%;
+	margin: 0em;
 	display: inline;
 }
 
@@ -108,6 +107,7 @@ body:after{
 	font-weight: 400;
  	vertical-align: middle;
   	color: #fff;
+  	font-size: 16px;
 }
 
 
@@ -204,7 +204,6 @@ h3 {
 
 p {
 	text-align: center;
-	font-size: 16px;
 }
 
 ul {
@@ -234,8 +233,8 @@ div.boxed {
 
 
 #description {
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 5em;
+	margin-right: 5em;
 }
 
 a {
@@ -263,6 +262,7 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
+	text-align: center;
 }
 
 .portfolio_image {
@@ -297,3 +297,160 @@ a {
 	padding: 1em;
 	width: 30%;
 }
+
+@media only screen and (max-width: 960px) {
+	footer {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0em;
+	}
+
+	#get_in_touch {
+	float: none;
+	padding: 0em;
+	width: 100%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	}
+
+	#social {
+	float: none;
+	padding: 0em;
+	width: 100%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	}
+
+	#quick_contact {
+	float: none;
+	padding: 0em;
+	width: 100%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+
+	}
+	}
+
+@media only screen and (max-width: 768px) {
+	body{
+		font-size: 14px;}
+	.portfolio_image {
+		width: 46%;
+	}	
+	#description {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+	}
+
+@media only screen and (max-width: 500px) {
+	body{
+		font-size: 14px;}
+	.portfolio_image {
+		width: 90%;
+	}	
+	#description {
+	margin-left: 1em;
+	margin-right: 1em;
+	}
+
+	header {
+ 	padding: 1em;
+	}
+
+	nav {
+    padding: 0em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	#logo {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+	}
+
+	#navstyle {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 1em;
+	padding: 0em;
+	display: block;
+	}
+
+	#workbutton {
+	float: none;
+	padding: 1em;
+	background-color: rgba(255,255,255,.7);
+	text-align: center 
+	}
+	#servicesbutton {
+	float: none;
+	padding: 1em;
+	background-color: rgba(255,255,255,.7);
+	text-align: center 
+	}
+	#aboutbutton {
+	float: none;
+	padding:  1em;
+	background-color: rgba(255,255,255,.7);
+	text-align: center 
+	}
+	#contactbutton {
+	float: none;
+	padding: 1em;
+	background-color: rgba(255,255,255,.7);
+	text-align: center 
+	}
+	#slogan {
+	text-align: center;
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 3em;
+	margin-top: .75em;
+	margin-bottom: 0em;
+	text-shadow: .08em .08em #000;
+	}
+
+	.boxed {
+	border: solid 1px #fff;
+	display: table;
+	padding: 0em;
+	margin: 1.5em auto 1.5em auto;
+	}
+
+	.column{
+	width: 100%;
+	text-align: center;
+	}
+
+	#print {
+	float: none;
+	width: 93%;
+	margin: .5em;	
+	display: block;
+	}	
+
+	#online {
+	float: none;
+	width: 93%;
+	margin: .5em;
+	display: block;
+	}
+	section {
+    padding: 0em;
+}
+
+
+}
+
