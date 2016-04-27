@@ -19,16 +19,17 @@ nav {
     margin-right: 1.5em;
 }
 
-	section {
-	    background-color: #FFE2B8;
-	    border: 1px black solid;
+section {
+	    background-color: #ffffff;
+	    border: 1px #e8e8e8 solid;
 	    padding: 1.5em;
 	}
 
 footer {
-    background-color: #FF957E;
-    border: 1px black solid;
+    background-color: #ffffff;
+    border: 1px #e8e8e8 solid;
     width: 100%;
+    padding: 1.5em;
 }
 
 #wrapper{
@@ -41,15 +42,14 @@ footer {
 }
 
 #work{
-	background-color: #CC6600;
+	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 }
 
 #services{
-	background-color: #FF00CC;
-	border: 1px black solid;
+	background-color: #ffffff;
 	width: 100%;
 }
 .column{
@@ -61,9 +61,7 @@ footer {
 }
 
 #print {
-	background-color: violet;
-	border: 1px black solid;
-	padding: .75em;
+	padding-left: 2em;
 	float: left;
 	width: 45%;
 	margin: 0em;	
@@ -71,22 +69,20 @@ footer {
 }	
 
 #online {
-	background-color: #EffB88;
-	border: 1px black solid;
-	padding: .75em;
-	float: left;
-	width: 44%;
+	padding-right: 2em;
+	float: right;
+	width: 43%;
 	margin: 0em;
 	display: inline;
 }
 
 #about{
-	background-color: #0099CC;
+	background-color: #ffffff;
 	clear: both;
 	width: 100%;
 }
 #contact{
-	background-color: #390099;
+	background-color: #ffffff;
 	width: 100%;
 }
 
@@ -105,7 +101,7 @@ body:after{
 	font-family: 'Open Sans';
 	font-weight: 400;
  	vertical-align: middle;
-  	color: #fff;
+  	color: black;
   	font-size: 16px;
 }
 
@@ -115,6 +111,7 @@ h1  {
 	text-align: center;
 	font-family: 'Roboto Slab';
 	font-weight: 700;
+	color: #bc2534;
 }
 
 h2 {
@@ -122,6 +119,8 @@ h2 {
 	font-size: 1.25em;
 	font-family: 'Roboto Slab';
 	font-weight: 400;
+	color: #bc2534;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -129,10 +128,12 @@ h3 {
 	font-size: 1.1em;
 	font-family: 'Roboto Slab';
 	font-weight: 400;
+	color: #bc2534;
 }
 
 #slogan {
 	text-align: center;
+	color: #ffffff;
 	font-family: 'Roboto Slab';
 	font-weight: 700;
 	font-size: 4em;
@@ -215,6 +216,17 @@ ul {
 }
 
 
+.boxfooter {
+	border: solid 1px #000;
+	display: table;
+	padding: .25em;
+	margin: 2.5em auto 2.5em auto;
+}
+
+.boxfooter:hover{
+	background-color: rgba(0,0,0,.5);
+}
+
 div.boxed {
 	border: solid 1px #fff;
 	display: table;
@@ -225,6 +237,8 @@ div.boxed {
 .boxed:hover{
 	background-color: rgba(0,0,0,.5);
 }
+
+
 
 #headline {
 	padding: 1em;
@@ -237,7 +251,8 @@ div.boxed {
 }
 
 a {
-	color: #ffd9f1;
+	color: #bc2534;
+	text-decoration: none;
 }
 
 #buttonlink {
@@ -296,6 +311,8 @@ a {
 	padding: 1%;
 	width: 31%;
 }
+
+
 
 @media only screen and (max-width: 960px) {
 	footer {
